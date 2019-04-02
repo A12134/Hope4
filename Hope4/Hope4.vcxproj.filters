@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EngineSupportSystems-ESS">
+      <UniqueIdentifier>{2ef101b2-be91-453f-997a-a68a80eb9f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineSupportSystems-ESS\ResourceType">
+      <UniqueIdentifier>{0e04e702-6a75-47ad-aabe-312ff4ea9dc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HopeRoot.cpp">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HopeRoot.h">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>EngineSupportSystems-ESS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
