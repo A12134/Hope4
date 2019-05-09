@@ -38,7 +38,15 @@ public:
 	*/
 	void error(string str);
 
+	/*
+		set the flag for output logs in terminal
+	*/
 	static void setConsoleOutput(bool Value);
+
+	/*
+		set flag for output log
+	*/
+	static void setOutputLog(bool value);
 
 private:
 	string className;
@@ -47,6 +55,7 @@ private:
 	string getClassName();
 
 	static bool enableConsoleOutput;
+	static bool enableLog;
 };
 #endif
 

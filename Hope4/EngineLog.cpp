@@ -2,6 +2,7 @@
 #include <iostream>
 string EngineLog::LogFileName = "EngineLogFile.log";
 bool EngineLog::enableConsoleOutput = true;
+bool EngineLog::enableLog = true;
 
 EngineLog::EngineLog()
 {
@@ -43,20 +44,27 @@ void EngineLog::setConsoleOutput(bool Value)
 	enableConsoleOutput = Value;
 }
 
+void EngineLog::setOutputLog(bool value)
+{
+	enableLog = value;
+}
+
 void EngineLog::writeToLogFile(string str)
 {
-	// display in console
-	if (enableConsoleOutput) {
-		cout << str;
-	}
-	ofstream out;
-	out.open(LogFileName, ios::app);
-	
-	if (out.is_open()) {
-		out << str;
-	}
+	if (enableLog) {
+		// display in console
+		if (enableConsoleOutput) {
+			cout << str;
+		}
+		ofstream out;
+		out.open(LogFileName, ios::app);
 
-	out.close();
+		if (out.is_open()) {
+			out << str;
+		}
+
+		out.close();
+	}
 }
 
 string EngineLog::getTimeStamp()
