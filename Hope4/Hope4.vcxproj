@@ -146,22 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EngineLog.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="HopeRoot.cpp" />
-    <ClCompile Include="LogManager.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Material.cpp" />
-    <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="stb_image.cpp" />
-    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HopeRoot.h" />
-    <ClInclude Include="LogManager.h" />
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="EngineLog.h" />
     <ClInclude Include="stb_image.h" />
-    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -30,40 +30,16 @@
     <ClCompile Include="glad.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="HopeRoot.cpp">
-      <Filter>EngineSupportSystems-ESS</Filter>
-    </ClCompile>
-    <ClCompile Include="ResourceManager.cpp">
-      <Filter>EngineSupportSystems-ESS</Filter>
-    </ClCompile>
-    <ClCompile Include="Material.cpp">
-      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
-    </ClCompile>
-    <ClCompile Include="LogManager.cpp">
-      <Filter>EngineSupportSystems-ESS</Filter>
+    <ClCompile Include="EngineLog.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="HopeRoot.h">
-      <Filter>EngineSupportSystems-ESS</Filter>
-    </ClInclude>
-    <ClInclude Include="ResourceManager.h">
-      <Filter>EngineSupportSystems-ESS</Filter>
-    </ClInclude>
-    <ClInclude Include="Material.h">
-      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>EngineSupportSystems-ESS\ResourceType</Filter>
-    </ClInclude>
-    <ClInclude Include="LogManager.h">
-      <Filter>EngineSupportSystems-ESS</Filter>
+    <ClInclude Include="EngineLog.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
